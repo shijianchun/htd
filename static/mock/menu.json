@@ -1,0 +1,43 @@
+{
+    "code": 200,
+    "data": [
+    	{
+			"title" :"首页",
+			"router" :"/index",
+			"childs":[{
+				"title":"name1-1"
+			}]
+		},{
+			"title":"海汀顿",
+			"router" :"/htd",
+			"childs":[{
+				"title":"name2-1"
+			}]
+		},{
+			"title":"英国EYFS",
+			"router" :"/eyes",
+			"childs":[{
+				"title":"name3-1"
+			}]
+		},{
+			"title":"专家团队",
+			"router" :"/zjtd",
+			"childs":[{
+				"title":"name4-1"
+			}]
+		},{
+			"title":"预约报名",
+			"router" :"/yybm",
+			"childs":[{
+				"title":"name5-1"
+			}]
+		},{
+			"title":"联系我们",
+			"router" :"/concat-us",
+			"childs":[{
+				"title":"name6-1"
+			}]
+		}
+	],
+    "message": "成功"
+}
