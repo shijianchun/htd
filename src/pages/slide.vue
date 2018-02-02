@@ -1,6 +1,6 @@
 <template> 
-    <transition-group name="fade"> 
-        <div class="home-slide" v-if="show" key="slide">  
+    <transition-group> 
+        <div class="home-slide" key="slide">  
             <swiper :options="swiperOption" ref="mySwiper">  
                 <!-- <swiper-slide v-for="item in items">  
                 </swiper-slide>   -->
@@ -80,7 +80,6 @@
             this.swiper.pagination.bullets.css({'background':'#00522d','width':'13px','height':'13px','opacity':'1'}); 
             this.setImgWH();
             window.addEventListener('resize', this.handleResize);
-            this.show = true;
         } ,
         beforeDestroy: function () {
             window.removeEventListener('resize', this.handleResize);
@@ -145,7 +144,5 @@
         height:13px;
         opacity:1;
         cursor: pointer;
-    }       	
-	
-		
+    }       		
 </style>    

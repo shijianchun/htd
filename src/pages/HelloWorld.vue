@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1 >{{ msg }}</h1>
   </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Hello ?'
+      msg: 'Hello 22?'
     }
   }
 }
@@ -34,5 +34,8 @@ a {
 .hello {
   width: 100%;
   height: 700px;
+  h1 {
+    color: green;
+  }
 }
 </style>

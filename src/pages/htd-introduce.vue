@@ -1,7 +1,7 @@
 <template>
     <div class="htd-wraper">
       <div  class="introduce">
-        <img v-bind:src="url" alt="">
+        <img v-bind:src="imgUrl" alt="">
       </div>
     </div>
 </template>

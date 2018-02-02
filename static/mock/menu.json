@@ -4,39 +4,43 @@
     	{
 			"title" :"首页",
 			"router" :"/index",
-			"childs":[{
-				"title":"name1-1"
-			}]
+			"childs":[
+				{"title":"海汀顿动态"}
+			]
 		},{
 			"title":"海汀顿",
-			"router" :"/htd",
-			"childs":[{
-				"title":"name2-1"
-			}]
+			"router" :"/htd/1",
+			"childs":[
+				{"title":"品牌简介"},
+				{"title":"文化与理念"},
+				{"title":"CEO寄语"},
+				{"title":"园所分布"}
+			]
 		},{
 			"title":"英国EYFS",
 			"router" :"/eyes",
-			"childs":[{
-				"title":"name3-1"
-			}]
+			"childs":[]
 		},{
 			"title":"专家团队",
 			"router" :"/zjtd",
-			"childs":[{
-				"title":"name4-1"
-			}]
+			"childs":[
+				{"title":"专家顾问"},
+				{"title":"精英团队"}
+			]
 		},{
 			"title":"预约报名",
 			"router" :"/yybm",
-			"childs":[{
-				"title":"name5-1"
-			}]
+			"childs":[
+				{"title":"预约参观"},
+				{"title":"活动报名"}
+			]
 		},{
 			"title":"联系我们",
 			"router" :"/concat-us",
-			"childs":[{
-				"title":"name6-1"
-			}]
+			"childs":[
+				{"title":"合作办学"},
+				{"title":"课外课服务"}
+			]
 		}
 	],
     "message": "成功"

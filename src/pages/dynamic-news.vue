@@ -47,7 +47,8 @@
 					    width: 100%;
 					    height: 100%;
 					    cursor: pointer;
-					}			    		
+					}
+								    		
 		    	}
 							    	
 		    }		   
@@ -80,7 +81,8 @@
 			    height: 244px;
 			    padding-left: 40px;
     			padding-right: 40px;
-			    background-color: #eeeeee;
+    			left: -5px;
+			    background: rgb(204,212,208);
 			    
 				.title {
 				    width: 100%;
